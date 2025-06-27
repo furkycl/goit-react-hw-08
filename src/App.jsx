@@ -5,12 +5,12 @@ import { selectIsRefreshing } from "./redux/auth/selectors.js";
 import { Routes, Route } from "react-router-dom";
 
 import Layout from "./components/Layout.jsx";
-import Home from "../../pages/Home/Home";
-import Registration from "../../pages/Registration/Registration";
-import Login from "../../pages/Login/Login";
-import Contacts from "../../pages/Contacts/Contacts";
-import PrivateRoute from "../PrivateRoute/PrivateRoute";
-import RestrictedRoute from "../RestrictedRoute/RestrictedRoute";
+import Home from "./pages/Home/Home.jsx";
+import Registration from "./pages/Registration/Registration.jsx";
+import Login from "./pages/Login/Login.jsx";
+import Contacts from "./pages/Contacts/Contacts.jsx";
+import PrivateRoute from "./components/PrivateRoute.jsx";
+import RestrictedRoute from "./components/RestrictedRoute.jsx";
 
 const App = () => {
   const dispatch = useDispatch();
