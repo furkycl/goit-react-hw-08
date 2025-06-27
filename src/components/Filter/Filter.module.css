@@ -1,0 +1,23 @@
+.label {
+  display: flex;
+  flex-direction: column;
+  max-width: 320px;
+  margin: 0 auto 1.5rem;
+  font-weight: 600;
+  color: #333;
+  font-size: 1rem;
+}
+
+.input {
+  margin-top: 0.25rem;
+  padding: 0.5rem 0.75rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  transition: border-color 0.3s ease;
+}
+
+.input:focus {
+  outline: none;
+  border-color: #646cff;
+}
