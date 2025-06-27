@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  color: white;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.greeting {
+  margin: 0;
+}
+
+.logoutBtn {
+  background-color: #ef4444;
+  border: none;
+  color: white;
+  padding: 0.3rem 0.8rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+  font-weight: 600;
+}
+
+.logoutBtn:hover {
+  background-color: #b91c1c;
+}
